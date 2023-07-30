@@ -3,11 +3,11 @@ class Solution:
         maxCandies = max(candies)
         result = []
 
-        for x in candies:
-            if maxCandies + x >= maxCandies:
-                result[x].index().append(True)
+        for i in range(len(candies)):
+            if candies[i] + extraCandies >= maxCandies:
+                result.append(True)
             else:
-                result[x].index().append(False)
+                result.append(False)
 
         return result
 
