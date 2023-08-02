@@ -11,14 +11,11 @@ class Solution:
         return (" ".join(stackeroo))
 
 
-        # stackeroo = s.split(" ")
-        # print(stackeroo)
+# reverse string by splitting sliced back to front
 
-        # return (" ".join(stackeroo[::-1])).strip()
+# loop through new reversed string and append to stack
+
+# return stack joined with space as the splitter
 
 
-# split string into list (stackeroo) at spaces
-
-# join list in reverse order using 
-# (''.join(reversed(stackeroo)))
 
