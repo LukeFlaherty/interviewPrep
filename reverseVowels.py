@@ -19,7 +19,6 @@ class Solution:
 
 
 
-
 # get stack to store vowels in LIFO
 
 # get result initalized
@@ -28,7 +27,6 @@ class Solution:
 
 # if the letter is a vowel add it to the stack
 
-# loop through again, if letter is a vowel add it to the result str
+# loop through again, if vowel, retrieve and add to result
 
 # if its not than it still gets added to the result
-
