@@ -1,38 +1,34 @@
 class Solution:
     def reverseVowels(self, s: str) -> str:
-        tempVowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O','U']
-
+        
         stackeroo = []
 
-        strList = list(s)
-        print(strList)
+        result = ""
 
-        for i in range(len(strList)):
-            if strList[i] in tempVowels:
-                stackeroo.append(strList[i])
-            
-        print(stackeroo)
+        for i in s:
+            if i in 'aeiouAEIOU':
+                stackeroo.append(i)
+        
+        for i in s:
+            if i in 'aeiouAEIOU':
+                result += stackeroo.pop()
+            else:
+                result += i
 
-        for i in range(len(strList)):
-            if(strList[i] in tempVowels):
-                strList[i] = stackeroo[-1]
-                stackeroo.pop()
-
-        print(strList)
-
-        strStr = ''.join(strList)
-        print(strStr)
-
-        return strStr
+        return result
 
 
 
-# get vowels array 
 
-# initialize stack to store vowels
+# get stack to store vowels in LIFO
 
-# make str a list list(str)
+# get result initalized
 
-# loop through word and add all vowels into stack as they come up LIFO
+# loop through letters in string
 
-# loop through again and if [i] is in vowels array than replace with last entry in stored vowels array
+# if the letter is a vowel add it to the stack
+
+# loop through again, if letter is a vowel add it to the result str
+
+# if its not than it still gets added to the result
+
