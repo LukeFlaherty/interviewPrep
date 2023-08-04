@@ -3,16 +3,16 @@ class Solution:
         
         result = ""
         i = 0
+
         while len(word1) > i or len(word2) > i:
-            if(len(word1) > i):
+            if len(word1) > i:
                 result += word1[i]
-            if(len(word2) > i):
+            if len(word2) > i:
                 result += word2[i]
 
             i += 1
 
         return result
-
 
 # get a result string
 # get a counter for while loop
