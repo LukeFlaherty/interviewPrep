@@ -1,15 +1,7 @@
 class Solution:
     def reverseWords(self, s: str) -> str:
 
-        s = s.split()[::-1]
-
-        stackeroo = []
-
-        for i in s:
-            stackeroo.append(i)
-
-        return (" ".join(stackeroo))
-
+        return " ".join(s.split()[::-1])
 
 # reverse string by splitting sliced back to front
 
@@ -17,5 +9,5 @@ class Solution:
 
 # return stack joined with space as the splitter
 
-
+# s = list(s.split()[::-1])
 
