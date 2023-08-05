@@ -6,16 +6,11 @@ class Solution:
         result = []
 
         for i in range(len(candies)):
-            if(candies[i] + extraCandies) >= maxCandies:
+            if candies[i] + extraCandies >= maxCandies:
                 result.append(True)
             else:
                 result.append(False)
-
         return result
-
-
-
-
 
 # Find the maximum of the array and store it as maxCandies
 
