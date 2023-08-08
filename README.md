@@ -10,6 +10,6 @@ The questions were easier than ever tongith but im not doing a new one so I cons
 
 Aug 6
 
-Did not do a question tonithjt but need the git submission
+Did not do a question tonight but need the git submission
 
 ======
