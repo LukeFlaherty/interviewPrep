@@ -8,6 +8,3 @@ class Solution:
 # loop through new reversed string and append to stack
 
 # return stack joined with space as the splitter
-
-# s = list(s.split()[::-1])
-
