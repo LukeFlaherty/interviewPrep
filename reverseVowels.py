@@ -2,21 +2,18 @@ class Solution:
     def reverseVowels(self, s: str) -> str:
         
         stackeroo = []
-
         result = ""
 
         for i in s:
-            if i in 'aeiouAEIOU':
+            if i in "aeiouAEIOU":
                 stackeroo.append(i)
-        
         for i in s:
-            if i in 'aeiouAEIOU':
+            if i in "aeiouAEIOU":
                 result += stackeroo.pop()
-            else:
+            else: 
                 result += i
 
         return result
-
 
 
 # get stack to store vowels in LIFO
@@ -30,3 +27,4 @@ class Solution:
 # loop through again, if vowel, retrieve and add to result
 
 # if its not than it still gets added to the result
+
