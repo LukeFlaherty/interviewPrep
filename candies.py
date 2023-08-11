@@ -3,12 +3,12 @@ class Solution:
         
         maxCandies = max(candies)
         result = []
+
         for i in candies:
             if i + extraCandies >= maxCandies:
                 result.append(True)
             else:
                 result.append(False)
-
         return result
 
 # Find the maximum of the array and store it as maxCandies
@@ -22,5 +22,7 @@ class Solution:
 # Set the result of this child as true, false otherwise
 
 # Return result
+
+
 
 
