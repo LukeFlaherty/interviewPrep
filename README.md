@@ -13,3 +13,11 @@ Aug 6
 Did not do a question tonight but need the git submission
 
 ======
+
+Aug 11
+
+Getting harder I think I am doing like the hardest string manipulatiopn questions
+
+Have to work on buildspace now
+
+===========
