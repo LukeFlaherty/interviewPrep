@@ -21,3 +21,10 @@ Getting harder I think I am doing like the hardest string manipulatiopn question
 Have to work on buildspace now
 
 ===========
+
+Aug 14
+
+Been working on side project for nightrs and weekends rn but I need to memorize the triplets and product except self problems
+
+======
+
